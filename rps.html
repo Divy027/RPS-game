@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <title> RPS game </title>
+        <link rel ="stylesheet" href= "rps.css">
+        
+    </head>
+    <body style = "margin: 0;"> 
+        
+        <div class = "box">
+            
+            <div class = "button-box">
+
+                <div>
+                    <button value = "Rock" class= "rpsButtons"> 
+                         <img class = "pic" src= "imgs/rock.jpg">
+                    </button>
+                </div>
+                <div>
+                    <button value = "Paper" class= "rpsButtons"> 
+                         <img class = "pic" src= "imgs/paper.jpg">
+                    </button>
+                </div>
+
+                <div>
+                    <button value = "Scissor" class= "rpsButtons"> 
+                         <img class = "pic" src= "imgs/scissor.jpg">
+                    </button>
+                </div>
+            </div>
+
+
+            <div class = "output-Box">
+                <div>
+                    <button onclick = "end();" class= "endButton"> 
+                         <img class = "pic" src= "imgs/stop.png">
+                    </button>
+                </div>
+                <div class="text-box">
+                    <div id = "opponent-Box">  </div>
+                    <div id ="score">click above button to play ;) </div>
+                    <div id = "result"> </div>
+                </div>
+            </div>
+        </div>
+            <script src= "rps.js"> </script> 
+    </body>
+</html>
